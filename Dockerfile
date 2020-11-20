@@ -14,6 +14,4 @@ RUN adduser --disabled-password --gecos '' frank
 RUN chown -R frank:frank /code
 USER frank
 
-EXPOSE 4567
-
 CMD ["bundle", "exec", "ruby", "app.rb"]
