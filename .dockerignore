@@ -1,3 +1,4 @@
 .env
 .ruby-version
+docker-compose.yml
 Procfile
